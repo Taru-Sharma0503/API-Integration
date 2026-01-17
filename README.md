@@ -20,7 +20,7 @@ Run the script using:
 python weather_app.py
 
 
-Modify the city variable in the script to check the weather for different cities.
+Input city name to check weather conditions.
 
 ## Features ✨
 
@@ -35,3 +35,4 @@ Displays pressure and humidity
 Handles errors gracefully if the API call fails
 
 ## Screenshots 📸
+![output](https://github.com/user-attachments/assets/40d43dba-7d7b-4ea1-b3c0-61e6f5bc6556)
