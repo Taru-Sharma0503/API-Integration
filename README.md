@@ -29,6 +29,8 @@ Wind speed
 
 ## Screenshots 📸
 
+![ss](https://github.com/user-attachments/assets/4cda9d70-30fe-48cb-ad36-eabab41d9c00)
+
 
 ## 🛠️ Tech Stack
 
