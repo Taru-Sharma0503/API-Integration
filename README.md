@@ -54,9 +54,13 @@ Wind speed
 ## 📂 Project Structure
 
 /API-Integration
+
 │── index.html
+
 │── style.css
+
 │── script.js
+
 └── README.md
 
 ## ✨ Future Improvements
