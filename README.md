@@ -1,38 +1,76 @@
-# Weather App 🌤️🌡️
+# Weather Web App 🌤️🌡️
 
 ## Introduction
 
-This Python script fetches and displays the current weather information for a given city using the OpenWeatherMap API. The program retrieves real-time weather data such as temperature, pressure, humidity, and general weather conditions, and prints it in a readable format. It demonstrates how to make API requests in Python, handle JSON responses, and implement basic error handling in case the API call fails or the city name is invalid.
+A responsive and animated weather web application that displays real-time weather information based on the user’s city input.
+Built with a clean UI, smooth transitions, and dynamic data fetched from a public weather API.
 
-## How to Run ▶️
-
-Make sure Python is installed on your system.
-
-Install the requests library if not already installed:
-
-pip install requests
-
-
-Save the script as weather_app.py.
-
-Run the script using:
-
-python weather_app.py
-
-
-Input city name to check weather conditions.
 
 ## Features ✨
 
-Fetches real-time weather data from OpenWeatherMap API
 
-Displays city name, weather condition, and description
+● 🔍 Search weather by city name
 
-Shows temperature (in Kelvin), minimum and maximum temperature
+● 🌡️ Displays:
 
-Displays pressure and humidity
+Temperature
 
-Handles errors gracefully if the API call fails
+Weather condition
+
+Humidity
+
+Wind speed
+
+● 🎨 Smooth transitions & UI animations
+
+● 📱 Fully responsive design
+
+● ⚡ Fast and lightweight
 
 ## Screenshots 📸
-![output](https://github.com/user-attachments/assets/40d43dba-7d7b-4ea1-b3c0-61e6f5bc6556)
+
+![ss](https://github.com/user-attachments/assets/4cda9d70-30fe-48cb-ad36-eabab41d9c00)
+
+
+## 🛠️ Tech Stack
+
+● HTML5
+
+● CSS3 (animations & transitions)
+
+● JavaScript (ES6)
+
+● OpenWeatherMap API
+
+## ⚙️ How It Works
+
+1.User enters a city name.
+
+2.App sends a request to the weather API.
+
+3.API returns live weather data.
+
+4.UI updates dynamically with smooth animations.
+
+
+## 📂 Project Structure
+
+/API-Integration
+
+│── index.html
+
+│── style.css
+
+│── script.js
+
+└── README.md
+
+## ✨ Future Improvements
+
+● 🌙 Dark / light mode
+
+● 📍 Auto-detect user location
+
+● 🕒 5-day weather forecast
+
+● 📊 Weather charts

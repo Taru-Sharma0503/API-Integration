@@ -1,0 +1,50 @@
+body {
+  background-color: #fb850080;
+}
+h1 {
+  text-align: center;
+  color: #023047;
+  text-transform: capitalize;
+  text-decoration: wavy underline;
+}
+h2 {
+  margin-left: 20px;
+  color: #124d5c;
+}
+input {
+  margin-left: 20px;
+  height: 30px;
+  border: 2px solid black;
+}
+input:focus {
+  outline-color: rgb(0, 0, 0);
+}
+button {
+  background-color: #ffb703;
+  margin-left: 20px;
+  height: 35px;
+  border-radius: 20px;
+  border: 3px solid black;
+  transition: transform 0.3s;
+}
+button:hover {
+  transform: scale(1.1);
+}
+p {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 20px;
+  animation: p-animate 1500ms 1;
+}
+
+@keyframes p-animate {
+  from {
+    opacity: 0;
+    translate: -100px;
+  }
+  to {
+    opacity: 1;
+    translate: 0px;
+  }
+}
