@@ -1,8 +1,10 @@
 let countryCode = 356;
 let API_key = "7dbb2a18fb9855d1804d6fe0c74fd651";
 let button = document.querySelector("button");
+let weatherInfoLabel = document.querySelector("#weatherInfo");
 button.addEventListener("click", async function () {
   try {
+    weatherInfoLabel.innerHTML = "";
     let input = document.querySelector("#cityName");
     let cityName = input.value.trim();
     if (!cityName) {
@@ -19,7 +21,7 @@ button.addEventListener("click", async function () {
     let p = document.createElement("p");
     p.innerText = `City Name: ${response.name}\nTemperature: ${response.main.temp - 273.15}°C\nMinimum Temperature: ${response.main.temp_min - 273.15}°C\nMaximum Temperature: ${response.main.temp_max - 273.15}°C\nHumidity: ${response.main.humidity}%\nPressure: ${response.main.pressure}hPa\nWind Speed: ${response.wind.speed}m/s\nDescription: ${response.weather[0].description}`;
     p.classList.add("weather-details");
-    document.body.appendChild(p);
+    weatherInfoLabel.appendChild(p);
   } catch (error) {
     console.error("Error fetching weather data:", error);
     alert(
